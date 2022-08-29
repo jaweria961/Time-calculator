@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(0deg, rgba(39,34,195,1) 35%, rgba(45,157,253,1) 100%);
+    width: 100vw;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.box{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-box{
+    background-color: white;
+    color: black;
+    height:70px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid black;
+    gap: 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.date
+{
+    border: none;
+    font-size: 1rem;
+    width: 210px;
+    height: 50px;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 5px;
+    color: black;
+    
+    background-color: white;
+    border: 2px double black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.calculate{
+    font-size: 1rem;
+    width:80px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    
+    background-color: black;
+    border: 2px double black;
+    margin: 5px;
+    padding: 5px;
+    font-size: 0.7rem;
+    color: rgba(239,238,238,0.941);
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inner-boxs{
+    background-color: black;
+    color: white;
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 1px 0.1px rgb(39,12,12);
+    
+}
+.number{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: 1.6rem;
+}
+.label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 0.7rem;
+    color: rgba(239,238,238,0.941);
+}
